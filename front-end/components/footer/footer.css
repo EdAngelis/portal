@@ -1,0 +1,26 @@
+.bottom-bar {
+    position:relative;
+    text-align:center;
+    font-size:.8em;
+    text-transform:uppercase;
+    background:#000;
+    padding:15px 0;
+  }
+footer{
+    background:#191919;
+    text-align: center;
+}
+.footer{
+    padding: 1%;
+}
+  .myDatas{
+    color: white;
+    font-size: 20px;
+    opacity: 0.7;
+    line-height: 0.7;
+
+  }
+  
+  
+
+

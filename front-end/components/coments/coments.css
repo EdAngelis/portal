@@ -1,0 +1,78 @@
+.childComent{
+    background-color: rgb(173, 197, 250);
+    margin-top: 2%;
+    border-radius: 30px;
+}
+.nameComent2{
+    margin-right: 3%;
+}
+
+.formContainer{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+.dateComent{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.shareComent{
+    padding: 4px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.comentBody{
+    margin: 0;
+}
+.likeComent {
+    background-color: blue;
+    color: white;
+    padding: 0%;
+    border-radius: 20%;
+}
+.numberOfLikes {
+    background-color: blue;
+    color: white;
+    padding: 0%;
+    border-radius: 20%;
+}
+.unlikeComent {
+    background-color: red;
+    color: white;
+    padding: 0%;
+    border-radius: 20%;
+}
+.numberOfUnlike {
+    background-color:red;
+    color: white;
+    padding: 0%;
+    border-radius: 20%;
+}
+
+.hide{
+    display: none;
+}
+
+
+.comentsHeader{
+    position: relative;
+    left: 5%;
+}
+
+.replyChild{
+    border-radius: 30px;
+    background-color: rgb(211, 225, 255);
+}
+
+.replyBody{
+    position: relative;
+    margin-left: 5%;
+}
+
+.showReplys{
+    cursor: pointer;
+}

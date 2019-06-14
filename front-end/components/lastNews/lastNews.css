@@ -1,0 +1,24 @@
+.titleSession1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 40px;
+
+}
+.news{
+    font-size: 28px;
+}
+
+.latestNews{
+    cursor: pointer;
+}
+
+.showMore{
+  cursor: pointer;
+  
+}
+
+.imgNotice{
+    height: 80px;
+    width: 150px;
+    border-radius: 10%;
+}

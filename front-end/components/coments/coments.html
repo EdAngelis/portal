@@ -1,0 +1,77 @@
+<!-- Coments Form-->
+<div class="row"></div>
+<div class="formContainer col-md-6">
+    <span id="testeComents" class="comentsHeader">Deixe seu Comentário:</span>
+    <form id="comentForm" value="" action="">
+        <input id="nameComent" type="text" class="form-control" placeholder="Diga seu nome">
+        <textarea name="msg" id="msgComent" class="form-control" rows="2"
+            placeholder="Escreva seu comentário"></textarea>
+        <span class="btn btn-dark" Onclick="sendComent()">Enviar</span>
+    </form>
+</div>
+</div>
+
+<!-- Coments -->
+<div id="fatherComent" class="container">
+
+</div>
+
+
+
+
+
+
+
+
+
+<!--Template Coments-->
+<template id="comentsTemplate">
+    <div id="motherComent" class=" col-md-12">
+        <div class="container childComent">
+
+            <div class="comentsHeader row">
+                <span class="nameComent2"></span>
+                <span class="dateComent"></span>
+                <span class="likeComent ml-3 "></span>
+                <span class="numberOfLikes  mr-3"></span>
+                <span class="unlikeComent "></span>
+                <span class="numberOfUnlike  mr-3"></span>
+            </div>
+            <p class="comentBody"></p>
+
+        </div>
+        <div class="row">
+            <span class="shareComent ml-3 mr-3">responder</span>
+            <span class="showReplys">Mostrar 1 resposta</span>
+        </div>
+
+        <!-- Replyc Coment-->
+        <div id="replyFather" class="container replysDiv hide col-md-11">
+
+        </div>
+
+        <div class="hide replyComent col-md-12">
+            <form id="replyForm" value="" action="">
+                <input id="nameReply" type="text" class="form-control" placeholder="Diga seu nome">
+                <textarea name="msg" id="msgReply" class="form-control" rows="1"
+                    placeholder="Escreva seu comentário"></textarea>
+                <button id="btnReply" class=" btn btn-dark" Onclick="sendReplicComent(this.id)">Enviar</button>
+            </form>
+        </div>
+    </div>
+</template>
+
+<!-- Template Reply coment-->
+<template id="templateReplic">
+    <div class="replyChild mb-2">
+        <div class="row comentsHeader">
+            <span class="nameComent2"></span>
+            <span class="dateComent"></span>
+            <span class="likeComent ml-3 "></span>
+            <span class="numberOfLikes  mr-3"></span>
+            <span class="unlikeComent "></span>
+            <span class="numberOfUnlike  mr-3"></span>
+        </div>
+        <p class="replyBody"></p>
+    </div>
+</template>

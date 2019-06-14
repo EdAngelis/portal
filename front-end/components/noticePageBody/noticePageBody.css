@@ -1,0 +1,9 @@
+.ads{
+    height: 100%;
+}
+.imgTopNotice{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+   
+}

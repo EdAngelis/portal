@@ -1,0 +1,23 @@
+/* Social Icons */
+
+.faceIcon{
+    margin-left: 1%;
+    cursor: pointer;
+}
+.twitterIcon{
+    margin-left: 1%;
+    cursor: pointer;
+}
+.whatsIcon{
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.faceIcon img{
+    height: 30px;
+}
+.twitterIcon img{
+}
+.whatsIcon img{
+    
+}

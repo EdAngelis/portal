@@ -1,0 +1,29 @@
+.sessionRight{
+    position: relative;
+    float: right;
+    
+    height: 100%;
+   
+}
+
+.body{
+    height: 100%;
+   
+}
+
+.sessionLeft{
+    position: relative; 
+    border-right: solid 1px;
+    margin-bottom: 10%;      
+}
+
+.sessionLeftTop{
+    height: 100%;
+    position: relative;
+}
+.sessionLeftBottom{
+    position: relative;
+}
+.sessionLeftMedium{
+    position: relative;
+}

@@ -1,0 +1,41 @@
+.objets{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    }
+.colSign{
+    margin-bottom: 5px;
+ }
+.btn{
+    font-size: 30px;
+}
+
+.font{
+    position: relative;  
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+
+.btnRegister{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%); 
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+}
+
+.form{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+
+
+
+
+

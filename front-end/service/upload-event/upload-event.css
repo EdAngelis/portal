@@ -1,0 +1,36 @@
+
+#noticeUploadDiv{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: black;
+}
+#noticeUploadDiv span{
+    color: white;
+}
+
+.form-control{
+    margin-bottom: 2px;
+}
+
+.urlLink-upade{
+    position: relative;
+    left: 5%;
+    width: 90%;
+}
+.btnSend{
+    cursor: pointer;
+    border:  2px;
+    border-color: white
+}
+
+.hide{
+    display: none;
+}
+.radioUpdate label{
+    color: white;
+}
+
+.btnRemover{
+    cursor: pointer;
+}

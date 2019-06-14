@@ -1,0 +1,15 @@
+#esmiuFather{
+    position: relative ;
+    left: 10% ;
+}
+#esmiuTitle{
+    font-size: 220%;
+}
+
+.esmiuChild{
+    cursor: pointer;
+}
+#esmiuImg{
+    height: 50px;
+    width: 50px;
+}

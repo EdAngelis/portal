@@ -1,0 +1,33 @@
+.right{
+    height: 400px;
+
+}
+.midle{
+    margin-bottom: 50px;
+}
+.left{
+    height: 400px;
+  
+}
+.top{
+    height: 50px;
+ 
+}
+
+.titleNotice{
+    text-align: center;
+}
+
+.comentsDiv{
+    margin-top: 5%;
+}
+
+.socialShareButtons{
+    position: relative;
+    left: 50% ;
+}
+
+.subTitle{
+    font-size: 20px;
+}
+
